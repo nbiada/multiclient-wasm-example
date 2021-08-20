@@ -2,7 +2,10 @@
 Example of Multiple WASM Client in Blazor project.
 
 ## Description
-This application demonstrate the use of **Multiple Client Application** in a Blazor WASM project.
+This application demonstrate the use of **Multiple Client Application** in a Blazor WASM project.  
+
+Each application will running on a different port or host name.  
+The Blazor Server project, via the Web API controllers, will provide the data for both projects.
 
 From original question by _alexsey bobrovitch_ on [Stackoverflow](https://stackoverflow.com/questions/68837851/file-framework-blazor-webassembly-js-is-not-found-in-hosted-application)
 
