@@ -1,0 +1,55 @@
+﻿@page "/"
+
+<h1>Multiple Client Application</h1>
+
+<p>
+    This application demonstrate the use of <b>Multiple Client Application</b> in a Blazor WASM project.
+</p>
+<p>
+    From original question by <i>alexsey bobrovitch</i> on 
+    <a href="https://stackoverflow.com/questions/68837851/file-framework-blazor-webassembly-js-is-not-found-in-hosted-application" target="_blank">Stackoverflow</a>
+</p>
+<h2>How to</h2>
+<p>
+    Select <b>MultiClientApplicationWasmExample.Server</b> as startup method.
+    <br/>
+    The Client WASM applications are both hosted via Blazor Server project.
+    <br/>
+    The first application is hosted via TCP port 5001, the second via TCP port 5002.
+</p>
+<p>
+    Try to switch between the two client application.
+    <br/>
+    You can see that the WeatherForecast controller working as expected from both the client applications. 
+    <br/>
+    Take a look to the <code>Route</code> controller configuration.
+</p>
+<p>
+    This project is based on the original documentation from Microsoft: <a href="https://docs.microsoft.com/en-us/aspnet/core/blazor/host-and-deploy/webassembly?view=aspnetcore-5.0#hosted-deployment-with-multiple-blazor-webassembly-apps-1">Hosted deployment with multiple Blazor WebAssembly apps</a>
+</p>
+<hr />
+<pre>
+    <small>
+        MIT License
+
+        Copyright (c) 2021 Nicola Biada
+
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+    </small>
+</pre>
